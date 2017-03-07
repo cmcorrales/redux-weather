@@ -18,7 +18,7 @@ class SearchBar extends Component {
   }
 
   onFormSubmit(event) {
-    event.preventDefault(); //tells browser not to submit form. should always do this on React
+    event.preventDefault();
 
     //fetch weather data
     this.props.fetchWeather(this.state.term);
